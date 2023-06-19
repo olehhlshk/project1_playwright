@@ -1,0 +1,8 @@
+{
+    "senderEmail": "info@salonhq.co",
+    "subjectWelcomeEmail": "Welcome to your online store",
+    "subjectInvitationEmail": "Onboard your Storefront",
+    "invitationEmailButtonName": "Set up Your Storefront",
+    "loginButtonName": "Log In",
+    "subjectLoginEmail": "SalonHQ Log In"
+}

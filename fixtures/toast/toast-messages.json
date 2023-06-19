@@ -1,0 +1,19 @@
+{
+    "productIsRestricted": "Product(s) not available in your area. Please remove from Shopping Cart to proceed",
+    "successfulBrandCreatedNotification": "Brand successfully created",
+    "successfulProductCreatedNotification": "Product successfully created",
+    "successfulProductUpdatedNotification": "Product successfully updated",
+    "successfulDiscountedPriceCreatedNotification": "Discounted Price created!",
+    "successfulAccountCreatedNotification": "Account successfully created",
+    "successfulStorefrontConfigUpdatedNotification": "Storefront successfully updated",
+    "successfulRecommendationCreatedNotification": "Recommendations successfully sent",
+    "createdAccountToast": "Create account has been success",
+    "sentLoginLinkToast": "Letter has been sent",
+    "createdCategoryToast": "Category successfully created",
+    "defaultPayoutMethodUpdated": "payout method set as Default",
+    "venmoPayoutMethodWasAdded": "Venmo payout method has been added",
+    "payPalPayoutMethodWasAdded": "PayPal payout method has been added",
+    "createdAliasToast": "Alias successfully created",
+    "rejectedInvitationToast": "Thank you for your Response. Account successfully deactivated",
+    "buyerCreatedToast": "Buyer successfully created"
+}

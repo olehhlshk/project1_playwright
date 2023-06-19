@@ -1,0 +1,22 @@
+{
+    "cookies": [],
+    "origins": [
+      {
+        "origin": "https://console.dev.salonhq.co",
+        "localStorage": [
+          {
+            "name": "HQ_WEB_ACCOUNT",
+            "value": "\"acc_01GKVKJVXZJRZBX6216GHASRAT\""
+          },
+          {
+            "name": "HQ_WEB_TOKEN",
+            "value": "\"eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImNvbnNvbGUiLCJ1c2VyX3VpZCI6InVzZV8wMUdLVktKVlA5QVNZWEg2MEpTSFQwTkFQUSIsImV4cCI6MTcwMjM4NzQ1MH0.V1WjfUIw4aex_EW3nzR-yZIBzCjFz56arHmZDaWGElI\""
+          },
+          {
+            "name": "key",
+            "value": "value"
+          }
+        ]
+      }
+    ]
+  }

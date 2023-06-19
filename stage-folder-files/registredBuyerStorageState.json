@@ -1,0 +1,18 @@
+{
+    "cookies": [],
+    "origins": [
+      {
+        "origin": "https://cb2.dev.salonhq.co/automation-storefront",
+        "localStorage": [
+          {
+            "name": "store_front_token",
+            "value": "\"eyJhbGciOiJIUzI1NiJ9.eyJzY29wZSI6ImJ1eWVyIiwidXNlcl91aWQiOiJ1c2VfMDFHU0ZLUjlXUFk2VkJWQ1k5V0ozTjVNTTciLCJleHAiOjE3MDgxNzUzMDN9.tkmjFtLFV8qJmTrFTYtMlUD-NcKkXA_CUvGEM2ExGfg\""
+          },
+          {
+            "name": "key",
+            "value": "value"
+          }
+        ]
+      }
+    ]
+  }

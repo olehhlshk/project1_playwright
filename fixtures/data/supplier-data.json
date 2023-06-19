@@ -1,0 +1,10 @@
+{
+    "supplierId": "sup_01GF3JMWQ56J1ES3TVMFT8ZRRZ",
+    "supplierForGeneratingTestData": "YAutomationSupplierAddProducts",
+    "marketplaceForGeneratingTestData": "yAddAccounts(Autotest)",
+    "supplierForManagingData": "yAutotestsSupplier",
+    "brandId": "bra_01GNFRP7TY2ER44A67209FQK04",
+    "categoryId": "cat_01G80X49V5TANKJ4V0KZYGX51G",
+    "supplierIdOfGlobalStorefront": "sup_01GHE1AGYACBB1TK28HJXFC7R5",
+    "featuredBrandName": "Zara"
+}
