@@ -11,6 +11,7 @@ import CartPage from '../../pages/storefront/cartPage';
 import SuccessfulPage from '../../pages/storefront/successfulPage';
 import OrderHistoryPage from '../../pages/storefront/orderHistoryPage';
 import { faker } from '@faker-js/faker';
+
 test.use({ storageState: './state-storage-files/registredBuyerStorageState.json' });
 test('Check order shipped status on storefront', async ({ page, request, isMobile }) => {
     const { storefrontURL } = process.env;
@@ -25,6 +26,7 @@ test('Check order shipped status on storefront', async ({ page, request, isMobil
     const orderHistoryPage = new OrderHistoryPage(page);
     const trackingNumber = faker.datatype.number({ min: 1000000, max: 9999999 });
     const shippingNumber = faker.datatype.number({ min: 1000000, max: 9999999 });
+    
     await page.goto(`${storefrontURL}`, { waitUntil: "load" });
     await landingPage.acceptAllCookies();
     await landingPage.searchProduct(storefrontData.product4);

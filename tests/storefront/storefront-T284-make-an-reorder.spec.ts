@@ -9,6 +9,7 @@ import StripeCheckoutPage from '../../pages/stripe/stripeCheckoutPage';
 import ProductDetailsPage from '../../pages/storefront/productDetailsPage';
 import * as buyerData from '../../fixtures/data/buyer-data.json';
 import * as storefrontData from '../../fixtures/data/storefront-data.json';
+
 test.use({ storageState: './state-storage-files/registredBuyerStorageState.json' });
 test('make an reorder', async ({ page, isMobile }) => {
   const { storefrontURL } = process.env;
@@ -20,6 +21,7 @@ test('make an reorder', async ({ page, isMobile }) => {
   const successfulPage = new SuccessfulPage(page);
   const landingPage = new LandingPage(page, isMobile);
   const productDetailsPage = new ProductDetailsPage(page);
+
   await page.goto(`${storefrontURL}`, { waitUntil: "load" });
   await landingPage.acceptAllCookies();
   await landingPage.searchProduct(storefrontData.product1);

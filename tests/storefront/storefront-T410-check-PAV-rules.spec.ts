@@ -10,6 +10,7 @@ import CartPage from '../../pages/storefront/cartPage';
 import CheckoutPage from '../../pages/storefront/checkoutPage';
 import AccountDetailsPage from '../../pages/storefront/accountDetailsPage';
 import ProductDetailPage from '../../pages/storefront/productDetailsPage';
+
 test.describe("storefront-T410", () => {
     test.use({ storageState: './state-storage-files/registredBuyerStorageState.json' });
     test('check restricted brands and products are not available for the signed in client', async ({ page, isMobile }) => {
@@ -17,6 +18,7 @@ test.describe("storefront-T410", () => {
         const landingPage = new LandingPage(page, isMobile);
         const allProductsPage = new AllProductsPage(page);
         const accountDetailsPage = new AccountDetailsPage(page);
+
         await page.goto(`${storefrontURL}`, { waitUntil: "load" });
         await landingPage.acceptAllCookies();
         await landingPage.searchProduct(RestrictedItem.restrictedBrand);
@@ -42,6 +44,7 @@ test.describe("storefront-T410", () => {
         const landingPage = new LandingPage(page, isMobile);
         const allProductsPage = new AllProductsPage(page);
         const zipModalPage = new ZipModalPage(page);
+
         await page.goto(`${storefrontURL}`, { waitUntil: "load" });
         await landingPage.acceptAllCookies();
         await zipModalPage.updateZip(BuyerData.zip);
@@ -69,6 +72,7 @@ test.describe("storefront-T410", () => {
         const checkoutPage = new CheckoutPage(page);
         const commonHelperPage = new CommonHelperPages(page);
         const productDetails = new ProductDetailPage(page);
+
         await page.goto(`${storefrontURL}`, { waitUntil: "load" });
         await landingPage.acceptAllCookies();
         await zipModalPage.closeZipModal();

@@ -10,6 +10,7 @@ import AllProductsPage from '../../pages/storefront/allProductsPage';
 import ZipModalPage from '../../pages/storefront/zipModalPage';
 import * as buyerData from '../../fixtures/data/buyer-data.json';
 import * as storefrontData from '../../fixtures/data/storefront-data.json';
+
 test('complete order with multiple products and quantities', async ({ page, isMobile }) => {
   const { storefrontURL } = process.env;
   const landingPage = new LandingPage(page, isMobile);
@@ -21,6 +22,7 @@ test('complete order with multiple products and quantities', async ({ page, isMo
   const cartPage = new CartPage(page);
   const successfulPage = new SuccessfulPage(page);
   const zipModal = new ZipModalPage(page);
+  
   await page.goto(`${storefrontURL}`, { waitUntil: "load" });
   await landingPage.acceptAllCookies();
   await zipModal.updateZip(buyerData.zip);
